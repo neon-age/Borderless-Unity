@@ -3,6 +3,8 @@ Hide white toolbars in Unity on Windows
 
 `F11` to enter Borderless, `Alt + ~` to hide/show menu bar
 
+Windows 10 only (11 won't work, most likely) 
+
 [![twitter](https://img.shields.io/twitter/follow/_neonage?style=social)](https://twitter.com/_neonage)\
 [![discord online](https://img.shields.io/discord/830405926078644254?label=Open%20Labs&logo=discord&style=social)](https://discord.gg/NrX5TCJ4aq)
 
