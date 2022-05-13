@@ -127,7 +127,6 @@ namespace AV.Toolkit
                 return;
             menuToggle = !menuToggle;
 
-            Debug.Log(evt.keyCode);
             var targetWindow = GetMainWindow();
             var menuHandle = Win32.GetMenu(targetWindow);
             if (menuHandle != IntPtr.Zero)
