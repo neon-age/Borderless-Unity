@@ -109,7 +109,10 @@ namespace AV.Toolkit
                     //case WM.NCACTIVATE: if (!isMainWndActive) break;// if (!menuToggle) HideMenuBar(hWnd); break;
                     //case WM.NCPAINT: if (!isMainWndActive) { return IntPtr.Zero; } break; //if (!menuToggle) { HideMenuBar(hWnd); DrawMenuBar(hWnd); } break;
 
-                    case WM.NCACTIVATE: // issue: when menu bar is hidden, floating windows do not respond to window drag
+                    // ISSUE (#1): when menu bar is hidden, floating windows do not respond to any inputs
+                    // but removing this causes menu flicker on alt-tab or when windows appear..
+                    //case WM.NCACTIVATE: 
+                    
                     case WM.NCCALCSIZE: if (!menuToggle) { return IntPtr.Zero; } break;
                 }
             }
