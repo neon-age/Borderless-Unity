@@ -1,0 +1,14 @@
+{
+	"name": "neonage.borderlessunity",
+	"unity": "2018.3",
+	"version": "0.0.1",	
+	"displayName": "Borderless Unity",
+	"author": "neon-age",
+	"description": "Hide white toolbars in Unity on Windows. F11 to toggle Borderless, Alt + ~ to hide/show menu bar. Windows 10 only (11 won't work, most likely)",
+	"keywords": ["editor"],	
+	"dependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/neon-age/Borderless-Unity.git"
+	}
+}
